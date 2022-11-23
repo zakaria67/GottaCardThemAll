@@ -1,3 +1,5 @@
+package be.intecbrussel;
+
 public class Friend {
     private String name;
     private boolean haveCard;
