@@ -2,14 +2,30 @@ package be.intecbrussel;
 
 public class Friend {
     private String name;
-    private boolean haveCard;
-    private int number1;
-    private int number2;
+    private boolean family;
+    private int yearsKnown;
+    private int friendShipLevel;
 
-    public Friend(String name, boolean haveCard, int number1, int number2) {
+    public Friend(String name, boolean family, int yearsKnown, int friendShipLevel) {
         this.name = name;
-        this.haveCard = haveCard;
-        this.number1 = number1;
-        this.number2 = number2;
+        this.family = family;
+        this.yearsKnown = yearsKnown;
+        this.friendShipLevel = friendShipLevel;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public boolean isFamily() {
+        return family;
+    }
+
+    public int getYearsKnown() {
+        return yearsKnown;
+    }
+
+    public int getFriendShipLevel() {
+        return friendShipLevel;
     }
 }
